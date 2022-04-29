@@ -1,0 +1,18 @@
+{
+  "name": "apuntes-semana-4",
+  "version": "1.0.0",
+  "description": "Actualmente se necesita calcular cierta información de los explorers de LaunchX, de momento se ha desarrollado por una consultoría externa muy mala un script en JS para realizar esto. Sin embargo después de una evaluación interna se ha decidido refactorizar totalmente el proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest",
+    "linter": "node --experimental-vm-modules ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node --experimental-vm-modules ./node_modules/eslint/bin/eslint.js . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "jest": "^27.5.1"
+  }
+}
